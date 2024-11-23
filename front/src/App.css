@@ -1,0 +1,147 @@
+.tempStatement {
+  width: 100%;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.logo-main {
+  position: relative;
+  display: flex;
+  top: 20%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+
+.logo-img {
+  width: 200px;
+  height: 300px;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.title-statement {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+
+.dog-name {
+  display: inline-block;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+}
+
+.slide-in {
+  transform: translateY(0px);   /* 원래 위치 */
+  opacity: 1;                 /* 보이게 하기 */
+}
+
+.slide-out {
+  transform: translateY(-20px); /* 위로 약간 이동 */
+  opacity: 0;                   /* 숨기기 */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  color: #b0b8c1;
+  font-size: 1.4rem;
+  font-family: 'IBMPlexSansKRRegular', Arial;
+  overflow-y: auto;
+  margin-top: 250px;
+  height: 60%;
+  /* transform: translateY(200px); */
+}
+
+.animals-and-type {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+#animals {
+  width: 30%;
+}
+
+#animals-type {
+  width: 68%;
+}
+
+.birth-date {
+  display: flex;
+  height: 82.39px;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+#solar-lunar {
+  width: 30%;
+}
+
+#birth-date {
+  width: 66%;
+  height: 65px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+#birth-date:active {
+  background-color: white;
+}
+
+.birth-time {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.basic-info {
+  display: flex;
+  height: 80px;
+  width: 100%;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+#gender {
+  width: 25%;
+}
+
+#name {
+  width: 72%;
+  height: 65px;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+.swipeable-container {
+  height: 100%;
+  width: 100%;
+}
+
+.button-container {
+  height: 18%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

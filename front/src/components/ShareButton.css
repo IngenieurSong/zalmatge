@@ -1,0 +1,12 @@
+.share-button {
+    width: 380px;
+    height: 75px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(37, 103, 103);
+    padding: 10px 20px;
+    font-size: 18px;
+    white-space: nowrap;
+}
