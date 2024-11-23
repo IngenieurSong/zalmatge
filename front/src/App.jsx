@@ -17,7 +17,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path='/start' element={<StartPage/>}/>
+      <Route path='/' element={<StartPage/>}/>
       <Route path='/input' element={<InputPage/>}/>
       <Route path='/input/person' element={<InputPersonPage/>}/>
       <Route path='/report/:report_id/:page_id' element={<ReportPage/>}/>
